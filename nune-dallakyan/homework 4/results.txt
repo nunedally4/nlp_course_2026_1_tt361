@@ -1,0 +1,117 @@
+
+DATASET INFORMATION
+Total articles: 2225
+Training articles: 1780
+Testing articles: 445
+Number of categories: 5
+Vocabulary size: 25182
+
+MATRIX SHAPES
+Training BoW: (1780, 25182)
+Testing BoW: (445, 25182)
+Training TF-IDF: (1780, 25182)
+Testing TF-IDF: (445, 25182)
+
+MODEL ACCURACY
+Accuracy: 0.9820
+Accuracy percentage: 98.20%
+
+CLASSIFICATION REPORT
+               precision    recall  f1-score   support
+
+     business     0.9899    0.9608    0.9751       102
+entertainment     0.9744    0.9870    0.9806        77
+     politics     0.9762    0.9762    0.9762        84
+        sport     1.0000    1.0000    1.0000       102
+         tech     0.9634    0.9875    0.9753        80
+
+     accuracy                         0.9820       445
+    macro avg     0.9808    0.9823    0.9815       445
+ weighted avg     0.9822    0.9820    0.9820       445
+
+
+TOP 10 WORDS BY CATEGORY
+
+Category: business
+bn 2.9086
+bank 1.777
+yukos 1.7411
+oil 1.7322
+economy 1.7182
+growth 1.693
+market 1.547
+economic 1.5118
+sales 1.4709
+company 1.4126
+
+Category: entertainment
+film 4.5249
+best 2.8715
+music 2.5333
+awards 2.0223
+band 1.8268
+award 1.7892
+album 1.7303
+actor 1.6516
+song 1.4725
+festival 1.4551
+
+Category: politics
+mr 4.2123
+labour 4.1056
+blair 3.4568
+election 3.341
+party 3.2201
+government 2.7015
+brown 2.6357
+howard 2.1091
+minister 2.0523
+lord 1.8385
+
+Category: sport
+england 1.9153
+game 1.8073
+cup 1.5411
+win 1.505
+ireland 1.4429
+wales 1.4297
+rugby 1.354
+chelsea 1.3401
+match 1.3385
+club 1.2984
+
+Category: tech
+mobile 3.5845
+technology 2.8054
+users 2.6241
+software 2.5811
+people 2.4702
+digital 2.4199
+games 2.2814
+net 2.2764
+phone 2.2522
+microsoft 2.2266
+
+TOP 10 WORDS BY MEAN TF
+said Mean TF: 3.2624 IDF: 0.1546 Document Frequency: 1525
+mr Mean TF: 1.3511 IDF: 1.0418 Document Frequency: 628
+year Mean TF: 1.0612 IDF: 0.5999 Document Frequency: 977
+people Mean TF: 0.9348 IDF: 1.0307 Document Frequency: 635
+new Mean TF: 0.8944 IDF: 0.8098 Document Frequency: 792
+time Mean TF: 0.6006 IDF: 0.9891 Document Frequency: 662
+world Mean TF: 0.55 IDF: 1.1854 Document Frequency: 544
+government Mean TF: 0.5444 IDF: 1.5389 Document Frequency: 382
+uk Mean TF: 0.5067 IDF: 1.4183 Document Frequency: 431
+years Mean TF: 0.464 IDF: 1.2058 Document Frequency: 533
+
+TOP 10 WORDS BY IDF
+aa Mean TF: 0.0006 IDF: 7.4844 Document Frequency: 1
+pretends Mean TF: 0.0006 IDF: 7.4844 Document Frequency: 1
+fizzy Mean TF: 0.0006 IDF: 7.4844 Document Frequency: 1
+prevalence Mean TF: 0.0022 IDF: 7.4844 Document Frequency: 1
+prevails Mean TF: 0.0006 IDF: 7.4844 Document Frequency: 1
+prevailing Mean TF: 0.0006 IDF: 7.4844 Document Frequency: 1
+flack Mean TF: 0.0011 IDF: 7.4844 Document Frequency: 1
+flagellation Mean TF: 0.0006 IDF: 7.4844 Document Frequency: 1
+prettier Mean TF: 0.0006 IDF: 7.4844 Document Frequency: 1
+pretoria Mean TF: 0.0006 IDF: 7.4844 Document Frequency: 1
